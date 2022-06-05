@@ -75,12 +75,27 @@
     <bool>false</bool>
    </attribute>
    <addaction name="actionNew"/>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionSave_As"/>
+   <addaction name="separator"/>
+   <addaction name="actionCopy"/>
+   <addaction name="actionCut"/>
+   <addaction name="actionPaste"/>
+   <addaction name="separator"/>
+   <addaction name="actionUndo"/>
+   <addaction name="actionRedo"/>
+   <addaction name="separator"/>
+   <addaction name="actionBold"/>
+   <addaction name="separator"/>
+   <addaction name="actionSubscript"/>
+   <addaction name="actionSuperscript"/>
   </widget>
   <action name="actionNew">
    <property name="icon">
     <iconset>
-     <normalon>C:/Users/praty/Downloads/Icons/New.bmp</normalon>
-    </iconset>
+     <normaloff>C:/Users/praty/Downloads/Icons/new-document.png</normaloff>
+     <normalon>C:/Users/praty/Downloads/Icons/New.bmp</normalon>C:/Users/praty/Downloads/Icons/new-document.png</iconset>
    </property>
    <property name="text">
     <string>New</string>
@@ -89,7 +104,7 @@
   <action name="actionOpen">
    <property name="icon">
     <iconset>
-     <normaloff>C:/Users/praty/Downloads/Icons/Open.bmp</normaloff>C:/Users/praty/Downloads/Icons/Open.bmp</iconset>
+     <normaloff>C:/Users/praty/Downloads/Icons/folder.png</normaloff>C:/Users/praty/Downloads/Icons/folder.png</iconset>
    </property>
    <property name="text">
     <string>Open</string>
@@ -98,7 +113,7 @@
   <action name="actionSave">
    <property name="icon">
     <iconset>
-     <normaloff>C:/Users/praty/Downloads/Icons/Save.bmp</normaloff>C:/Users/praty/Downloads/Icons/Save.bmp</iconset>
+     <normaloff>C:/Users/praty/Downloads/Icons/diskette.png</normaloff>C:/Users/praty/Downloads/Icons/diskette.png</iconset>
    </property>
    <property name="text">
     <string>Save</string>
@@ -116,7 +131,7 @@
   <action name="actionCopy">
    <property name="icon">
     <iconset>
-     <normaloff>C:/Users/praty/Downloads/Icons/Copy.bmp</normaloff>C:/Users/praty/Downloads/Icons/Copy.bmp</iconset>
+     <normaloff>C:/Users/praty/Downloads/Icons/copy.png</normaloff>C:/Users/praty/Downloads/Icons/copy.png</iconset>
    </property>
    <property name="text">
     <string>Copy</string>
@@ -125,7 +140,7 @@
   <action name="actionCut">
    <property name="icon">
     <iconset>
-     <normaloff>C:/Users/praty/Downloads/Icons/Cut.bmp</normaloff>C:/Users/praty/Downloads/Icons/Cut.bmp</iconset>
+     <normaloff>C:/Users/praty/Downloads/Icons/scissors.png</normaloff>C:/Users/praty/Downloads/Icons/scissors.png</iconset>
    </property>
    <property name="text">
     <string>Cut</string>
@@ -134,23 +149,35 @@
   <action name="actionPaste">
    <property name="icon">
     <iconset>
-     <normaloff>C:/Users/praty/Downloads/Icons/Paste.bmp</normaloff>C:/Users/praty/Downloads/Icons/Paste.bmp</iconset>
+     <normaloff>C:/Users/praty/Downloads/Icons/paste.png</normaloff>C:/Users/praty/Downloads/Icons/paste.png</iconset>
    </property>
    <property name="text">
     <string>Paste</string>
    </property>
   </action>
   <action name="actionUndo">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/praty/Downloads/Icons/undo.png</normaloff>C:/Users/praty/Downloads/Icons/undo.png</iconset>
+   </property>
    <property name="text">
     <string>Undo</string>
    </property>
   </action>
   <action name="actionRedo">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/praty/Downloads/Icons/redo.png</normaloff>C:/Users/praty/Downloads/Icons/redo.png</iconset>
+   </property>
    <property name="text">
     <string>Redo</string>
    </property>
   </action>
   <action name="actionBold">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/praty/Downloads/Icons/bold-text-option.png</normaloff>C:/Users/praty/Downloads/Icons/bold-text-option.png</iconset>
+   </property>
    <property name="text">
     <string>Bold</string>
    </property>
@@ -159,11 +186,19 @@
    <property name="checked">
     <bool>false</bool>
    </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/praty/Downloads/Icons/subscript.png</normaloff>C:/Users/praty/Downloads/Icons/subscript.png</iconset>
+   </property>
    <property name="text">
     <string>Subscript</string>
    </property>
   </action>
   <action name="actionSuperscript">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/praty/Downloads/Icons/superscript.png</normaloff>C:/Users/praty/Downloads/Icons/superscript.png</iconset>
+   </property>
    <property name="text">
     <string>Superscript</string>
    </property>
